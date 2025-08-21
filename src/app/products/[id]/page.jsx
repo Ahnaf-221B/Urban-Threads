@@ -74,7 +74,7 @@ export default function ProductDetails() {
 
 	return (
 		<PrivateRoute>
-			<div className="min-h-screen bg-gray-50 dark:bg-gray-900 pt-24 px-6 md:px-12">
+			<div className="min-h-screen bg-gray-50  pt-24 px-6 md:px-12">
 				<div className="grid grid-cols-1 md:grid-cols-2 gap-10 bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-lg">
 					{/* Product Image */}
 					<div className="flex items-center justify-center bg-gray-100 dark:bg-gray-700 rounded-xl overflow-hidden">

@@ -36,7 +36,7 @@ export default function Products() {
 	}
 
 	return (
-		<div className="mt-16 mx-4 md:mx-8">
+		<div className="mt-16 mx-4 md:mx-16 ">
 			{/* Title */}
 			<h1 className="text-3xl md:text-4xl font-bold text-center text-black mb-12">
 				All Products
@@ -47,7 +47,7 @@ export default function Products() {
 				{products.map((product) => (
 					<div
 						key={product._id}
-						className="group relative bg-gray-300 rounded-2xl shadow-md hover:shadow-xl transition duration-300 p-4 flex flex-col border border-gray-100"
+						className="group relative bg-gray-800 rounded-2xl shadow-md hover:shadow-xl transition duration-300 p-4 flex flex-col border border-gray-100"
 					>
 						{/* Image */}
 						{product.image && (
@@ -55,16 +55,16 @@ export default function Products() {
 								<img
 									src={product.image}
 									alt={product.name}
-									className="w-full h-full object-cover transform group-hover:scale-105 transition duration-300"
+									className="w-full h-full object-cover transform group-hover:scale-105 transition duration-300 "
 								/>
 							</div>
 						)}
 
 						{/* Details */}
-						<h2 className="text-xl font-semibold text-gray-800 group-hover:text-blue-700 transition mb-2">
+						<h2 className="text-xl font-semibold  text-white transition mb-2">
 							{product.name}
 						</h2>
-						<p className="text-gray-600 text-sm mb-3 line-clamp-2">
+						<p className="text-gray-400 text-sm mb-3 line-clamp-2">
 							{product.details}
 						</p>
 						<p className="text-lg font-bold text-blue-700 mb-4">
