@@ -60,7 +60,7 @@ export default function AddProducts() {
 
 	return (
 	
-			<div className="mt-28 mx-4 md:mx-8 p-6 bg-white rounded-lg shadow-lg text-black">
+			<div className="mt-28 mx-4 md:mx-8 p-6 bg-gray-300 rounded-lg shadow-lg text-black mb-10">
 				<h1 className="text-2xl font-bold mb-4 text-blue-700">Add Product</h1>
 				<form onSubmit={handleSubmit} className="space-y-4">
 					<div>
