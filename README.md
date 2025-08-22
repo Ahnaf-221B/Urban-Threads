@@ -1,3 +1,44 @@
+# Urban Threads - Men's Fashion Store
+
+A modern e-commerce platform built with Next.js, featuring a curated collection of men's fashion items.
+
+## Features
+
+- **User Authentication**
+  - Google OAuth integration
+  - Protected routes for authenticated users
+  - Session management
+
+- **Product Management**
+  - Browse product catalog
+  - View detailed product information
+  - Add new products (admin functionality)
+  - Responsive product grid layout
+
+- **UI/UX**
+  - Modern, responsive design
+  - Dark/Light mode support
+  - Loading states and animations
+  - Toast notifications for actions
+
+## Setup & Installation
+
+1. **Clone the repository**
+```bash
+git clone <repository-url>
+cd mens-outfit-app
+
+
+# Route Summary
+Public Routes
+/ - Home page with featured collections
+/products - Product catalog
+/login - Authentication page
+
+Protected Routes
+/products/[id] - Individual product details
+/dashboard/add-products - Add new products (admin only)
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
